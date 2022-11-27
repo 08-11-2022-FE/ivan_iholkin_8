@@ -106,6 +106,10 @@
         color: #d29a98;
         box-shadow: 5px 5px 15px #d29a98;
     }
+    button:active{
+        background-color:#d29a98;
+        color : white;
+    }
    input{
 
     margin-right: 16px;
