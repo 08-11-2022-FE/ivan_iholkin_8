@@ -1,0 +1,115 @@
+.container {
+    width: 793px;
+    background-color: #3B3F45;
+    margin: 0 auto;
+}
+    .header {
+        background-color: #4A4F56;
+        color: #FF8984;
+        padding: 12px 0;
+    }
+
+    header h1 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+    .header_p{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .section{
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+
+    .section_form{
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+
+    .section_form_ul{
+        margin-bottom: 45px;
+        background-color:  #3B3F45;
+    }
+
+    .section_form_ul_li{
+        background-color: #88839E;
+        padding: 12px 12px 14px 47px;
+        border-top: 3px solid #88839E;
+        border-bottom: 3px solid #88839E;
+        box-sizing: border-box;
+        width: 534px;
+        height: 45px;
+        margin-left:129px ;
+        background-color:  #88839E;
+       
+    }
+    .section_form_ul_li:nth-child(even){
+        background-color:#7A7593;
+    }
+
+    .section_form_ul_li:hover{
+        background: #625E77;
+        border-bottom:white 3px solid;
+        border-top:white 3px solid;
+    }
+    .section_form_ul_li:active{
+        background-color:#d29a98
+    }
+    label{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: white;
+
+    }
+
+    label > span{
+        font-size: 11px;
+        padding-top:12px ;
+        padding-bottom: 17px;
+    }
+
+    label > span::before{
+        content: "(";
+    }
+
+    label > span::after{
+        content: ")";
+    }
+    input:checked ~ label{
+        text-decoration: line-through;
+        color: #9B96AC;
+    }
+
+    button {
+        width: 534px;
+        height: 45px;
+        background-color: #4A4F56;
+        color: #FF8984;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        border: none;
+        margin-left: 129px;
+    }
+    button:hover {
+        color: #d29a98;
+        box-shadow: 5px 5px 15px #d29a98;
+    }
+   input{
+
+    margin-right: 16px;
+    width: 16px;
+    height: 16px;
+    
+   }
